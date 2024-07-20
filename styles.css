@@ -49,6 +49,10 @@ footer {
   background-color: var(--light-yellow);
 }
 
+.remove-pb {
+  padding-bottom: 0 !important;
+}
+
 .bg-halfway {
   background-color: var(--halfway);
 }
