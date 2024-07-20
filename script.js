@@ -1,7 +1,5 @@
-// Ensure GSAP and ScrollTrigger are available
 gsap.registerPlugin(ScrollTrigger);
 
-// Select all .images containers
 const imageContainers = document.querySelectorAll(".images");
 
 // Loop through each .images container and set up ScrollTrigger animations
