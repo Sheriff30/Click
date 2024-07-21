@@ -126,14 +126,13 @@ header p:nth-child(3) {
 
 .images {
   display: flex;
-  gap: 3rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .img-contanier {
-  max-width: 300px;
+  max-width: 350px;
   opacity: 0;
   transition: opacity 0.3s ease;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   cursor: pointer;
 }
 
@@ -144,6 +143,7 @@ header p:nth-child(3) {
 
 .download-app-icon {
   width: 4rem;
+  height: 4rem;
 }
 
 .download-app {
@@ -168,6 +168,19 @@ nav {
 
 nav a {
   color: var(--white);
+  text-decoration: none;
+}
+
+.download-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  font-size: 1.6rem;
+  text-align: center;
+  color: var(--orange);
+  font-weight: bold;
   text-decoration: none;
 }
 
@@ -234,9 +247,6 @@ nav a {
 @media only screen and (max-width: 600px) {
   html {
     font-size: 52.5%;
-  }
-  .images {
-    gap: 1rem;
   }
 
   footer {
