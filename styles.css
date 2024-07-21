@@ -37,8 +37,7 @@ html {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+
   gap: 1rem;
 }
 
@@ -47,10 +46,11 @@ html {
   margin: 1rem 0;
   font-size: 1.8rem;
   color: #574b25;
+  text-align: start;
 }
 .terms ul,
 .privacy ul {
-  list-style: none;
+  margin-left: 4rem;
 }
 .terms a,
 .privacy a {
@@ -58,10 +58,24 @@ html {
   font-weight: bold;
 }
 
+.privacy .sub-heading,
+.privacy .sub-heading2,
+.privacy .sub-heading3 {
+  justify-self: center;
+  align-self: center;
+  text-align: center;
+}
+.terms .sub-heading,
+.terms .sub-heading2,
+.terms .sub-heading3 {
+  justify-self: center;
+  align-self: center;
+  text-align: center;
+}
+
 .sub-heading2 {
   font-size: 2.2rem;
   font-weight: bold;
-  text-align: center;
 }
 .sub-heading3 {
   font-size: 2rem;
