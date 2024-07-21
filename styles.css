@@ -150,8 +150,6 @@ header p:nth-child(3) {
 
 .img-contanier {
   max-width: 350px;
-  opacity: 0;
-  transition: opacity 0.3s ease;
   cursor: pointer;
 }
 

@@ -1,28 +1,3 @@
-// Animations
-gsap.registerPlugin(ScrollTrigger);
-
-const imageContainers = document.querySelectorAll(".images");
-
-imageContainers.forEach((container) => {
-  gsap.fromTo(
-    container.querySelectorAll(".img-contanier"),
-    {
-      opacity: 0,
-    },
-    {
-      opacity: 1,
-      y: 0,
-      duration: 1,
-      stagger: 0.2,
-      scrollTrigger: {
-        trigger: container,
-        start: "top bottom",
-        end: "bottom top",
-      },
-    }
-  );
-});
-
 // MODAL
 document.addEventListener("DOMContentLoaded", () => {
   const modal = document.getElementById("image-modal");
