@@ -168,18 +168,9 @@ header p:nth-child(3) {
 }
 
 .img-contanier {
-  width: 100%;
-  max-width: 350px;
-  aspect-ratio: 1 / 1.78; /* 622.21 / 350 = 1.78 (height / width) */
+  width: 350px;
+  height: 622.21px;
   cursor: pointer;
-  object-fit: cover; /* Ensures images cover the container without stretching */
-}
-
-@media (max-width: 600px) {
-  .img-contanier {
-    max-width: 100%;
-    height: auto; /* Adjusts height automatically */
-  }
 }
 
 .img-contanier img {
