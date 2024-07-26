@@ -70,4 +70,3 @@ document.addEventListener("DOMContentLoaded", () => {
     showImage(currentImgIndex + 1);
   });
 });
-z;

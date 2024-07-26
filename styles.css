@@ -169,6 +169,7 @@ header p:nth-child(3) {
 
 .img-contanier {
   width: 350px;
+  height: 620px;
   cursor: pointer;
 }
 
