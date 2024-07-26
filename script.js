@@ -70,20 +70,3 @@ document.addEventListener("DOMContentLoaded", () => {
     showImage(currentImgIndex + 1);
   });
 });
-
-//
-
-document.addEventListener("DOMContentLoaded", function () {
-  const images = document.querySelectorAll(".img-container img");
-
-  images.forEach((img) => {
-    img.addEventListener("load", () => {
-      img.classList.add("loaded");
-    });
-
-    // Trigger the load event if the image is already cached
-    if (img.complete) {
-      img.classList.add("loaded");
-    }
-  });
-});
