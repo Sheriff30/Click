@@ -168,9 +168,21 @@ header p:nth-child(3) {
 }
 
 .img-contanier {
-  height: 85vh;
+  max-width: 350px;
+  max-height: 622px;
   cursor: pointer;
 }
+
+/* @media only screen and (max-width: 550px) {
+  .img-contanier {
+    height: 69vh;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .img-contanier {
+    height: 49vh;
+  }
+} */
 
 .img-contanier img {
   top: 0;
