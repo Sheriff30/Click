@@ -168,10 +168,8 @@ header p:nth-child(3) {
 }
 
 .img-contanier {
-  max-width: 350px;
+  width: 350px;
   cursor: pointer;
-  height: auto;
-  width: 100%;
 }
 
 .img-contanier img {
