@@ -169,23 +169,26 @@ header p:nth-child(3) {
 
 .img-contanier {
   max-width: 350px;
-  max-height: 622px;
   height: 622px;
-  height: 100%;
   width: 100%;
   cursor: pointer;
 }
 
-/* @media only screen and (max-width: 550px) {
+@media only screen and (max-width: 750px) {
   .img-contanier {
-    height: 69vh;
+    height: 400px;
   }
 }
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 500px) {
   .img-contanier {
-    height: 49vh;
+    height: 300px;
   }
-} */
+}
+@media only screen and (max-width: 375px) {
+  .img-contanier {
+    height: 200px;
+  }
+}
 
 .img-contanier img {
   top: 0;
