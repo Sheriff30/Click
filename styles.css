@@ -168,16 +168,18 @@ header p:nth-child(3) {
 }
 
 .img-contanier {
-  width: 350px;
-  height: 622.21px;
+  width: 22.8vw;
   cursor: pointer;
 }
 
 .img-contanier img {
+  top: 0;
+  left: 0;
   width: 100%;
+  height: 100%;
+  object-fit: cover;
   display: block;
 }
-
 .download-app-icon {
   width: 4rem;
   height: 4rem;
