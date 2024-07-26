@@ -70,3 +70,10 @@ document.addEventListener("DOMContentLoaded", () => {
     showImage(currentImgIndex + 1);
   });
 });
+
+const observer = lozad(".lozad", {
+  loaded: function (el) {
+    el.classList.remove("lozad-placeholder");
+  },
+});
+observer.observe();

@@ -177,6 +177,12 @@ header p:nth-child(3) {
   display: block;
 }
 
+.lozad-placeholder {
+  background-color: white; /* Placeholder background color */
+  width: 100%;
+  height: 100%;
+}
+
 .download-app-icon {
   width: 4rem;
   height: 4rem;
